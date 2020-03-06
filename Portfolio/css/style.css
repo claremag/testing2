@@ -1,0 +1,319 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 2.5rem;
+  /* border-style: 1.5px solid black; */
+  /* font-family: 'Archivo Narrow', sans-serif ; */
+  /* font-family: 'Helvetica Neue', sans-serif; */
+  /* font-family: 'Source Sans Pro', sans-serif ; */
+  font-family: 'NB Akademie', sans-serif;
+  font-family: 'NB Akademie book', sans-serif;
+
+  /* font-family: 'Heebo', sans-serif; */
+
+  /* font-family: 'Work Sans', sans-serif ; */
+}
+
+header , footer {
+  text-transform: uppercase;
+  letter-spacing: -0.5px;
+  font-weight:500;
+  overflow-y: hidden;
+}
+footer {
+  font-size: 0.8rem;
+  font-weight:500;
+
+}
+
+
+.box-case {
+  display: flex;
+}
+
+.box-case-work {
+  display: flex;
+}
+
+.box-case-about {
+    display: flex;
+}
+
+.box1 , .box4 {
+  flex: 1;
+}
+
+.box2 {
+  display: flex;
+  flex: 2
+}
+
+.box3 {
+  /* color: orange;
+  opacity: 0.5; */
+}
+.box5 {
+  flex:2;
+}
+
+.b-item2 {
+  margin-right: 1rem;
+}
+
+
+.sec2 , .home-content {
+margin-top: 2rem;
+}
+
+
+
+
+.mockup {
+  max-width: 100%;
+  transition: .5s ease;
+}
+
+.project-name {
+   /* margin-top: -2.5rem; */
+  /* margin-left: 1rem;
+  margin-top: -3rem; */
+  position:  relative;
+  bottom: 0;
+  /* top: 200; */
+}
+
+.project-name {
+
+}
+
+
+.overlay {
+border: 1px solid red;
+  /* position: relative; */
+
+  /* text-align: center; */
+  /* margin-bottom: 100%; */
+}
+/* .w-box {
+  border: 1.5px solid black;
+} */
+
+
+/* .mockup:hover {
+  opacity: 0.5;
+} */
+
+.wb1-hover {
+  transition: .5s ease;
+  /* margin-top:-75%;
+  margin-left: -65%;
+  padding-top: 2rem;
+  padding-bottom: 5rem; */
+  /* margin-bottom:50%; */
+  /* padding: 5rem; */
+  text-align: left;
+  opacity: 1;
+  /* padding-top: 1rem; */
+}
+
+/* .wb1-hover:hover {
+  opacity:1;
+} */
+
+
+.wb-left {
+  margin-right: 0.5rem;
+}
+.w-box {
+  margin-bottom: 0.5rem;
+}
+
+
+
+
+.f-box1 , .f-box2 {
+  flex: 1;
+}
+
+
+
+.sub-f {
+  display: flex;
+  text-align: right;
+  justify-content: flex-end;
+}
+
+.sub-f2 {
+  margin-left:1rem;
+}
+
+.b-item4 {
+  text-align: right;
+}
+
+.home {
+    transition: .5s ease;
+}
+
+
+
+
+/* about styling */
+
+.about-content {
+  padding-top:8rem;
+  padding-bottom:8rem;
+}
+.outline {
+  color: transparent;
+-webkit-text-stroke:0.75px white;
+}
+
+
+
+.about {
+  background-color: black;
+  color: white;
+  transition: .5s ease;
+}
+
+.hm-h1 {
+  /* font-size: 2.1rem; */
+  font-size:2.2rem;
+  /* font-size: 1rem; */
+  /* letter-spacing: -2px; */
+  /* letter-spacing: -1px; */
+  /* font-weight: bolder; */
+  font-weight: 400;
+  max-width:750px;
+  /* margin: 0 auto; */
+
+  /* font-family: 'garamond', serif; */
+  /* font-family: 'Maison Neue Extended', sans-serif; */
+  font-family: 'Druk Wide', sans-serif;
+  font-weight: normal;
+
+  /* font-family: 'Helvetica Neue', sans-serif; */
+  text-transform: uppercase;
+  /* max-width: 650px; */
+}
+
+.sec2-p {
+  max-width: 350px;
+  font-size: 0.7rem;
+  /* letter-spacing: -0.50px; */
+  /* opacity: 0.5; */
+  /* color: green; */
+
+  /* font-weight: bold; */
+/*
+  font-weight: bold; */
+}
+
+.hm-b {
+  max-width: 600px;
+  /* font-family: 'Work Sans', sans-serif ; */
+  /* font-family: 'Open Sans', sans-serif; */
+  /* font-family: 'Source Sans Pro', sans-serif ; */
+
+
+  /* font-family: 'Heebo', sans-serif; */
+  /* font-family: 'Helvetica Neue', sans-serif; */
+  font-family: 'NB Akademie', sans-serif;
+
+  /* font-family: 'maison neue', sans-serif; */
+  /* text-transform: uppercase; */
+
+  font-size: 0.95rem;
+  /* letter-spacing: 0.5px; */
+
+  font-weight: 200;
+  line-height: 1.5rem;
+  /* margin-left: 2rem; */
+}
+.hm-b3 {
+  font-size: 1.2rem;
+  /* font-family: 'Heebo', sans-serif; */
+  max-width: 600px;
+  /* font-family: 'Maison Neue Extended', sans-serif; */
+  font-family: 'Druk Wide', sans-serif;
+  font-weight: normal;
+
+  /* font-family: 'Garamond', serif;
+  font-style: italic; */
+  /* letter-spacing: -1px; */
+  /* max-width: 500px; */
+}
+
+.a-sec4{
+  margin-top: 3rem;
+}
+
+
+
+.box3 , .box6 {
+  flex: 1;
+}
+
+
+.home-h3 , .home-h4 {
+  text-transform: uppercase;
+  letter-spacing: -0.5px;
+}
+
+.home-h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: bold;
+  font-size: 0.9rem;
+
+}
+
+.home-h4 {
+  /* margin-top: 1rem;; */
+  /* margin: 0; */
+  margin-top:0.25rem;
+  font-size: 0.7rem;
+  font-weight: 500;
+}
+
+
+.intext-link , .intext-link-w {
+  text-decoration: none;
+  color: black;
+}
+
+
+.intext-link-w:hover {
+  color: black;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+
+.intext-link:hover {
+  text-decoration:underline;
+  color:black;
+
+}
+
+
+
+.intext-link-ab {
+  text-decoration: none;
+  color:white;
+
+}
+
+.intext-link-ab:hover {
+  text-decoration:underline;
+  color:white;
+}
